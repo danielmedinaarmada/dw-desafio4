@@ -1,0 +1,97 @@
+<!-- Elementos inline
+Tamaño fijo width | calc
+display inline-block
+posición absoluta width | left + margin | %
+flex
+tablas
+
+padding
+flex
+line-height
+vertical-align
+tablas
+-->
+
+
+<!--
+F1FAEE blanco
+A8DADC celeste
+457B9D sky azul
+1D3557 azul
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Alineación con CSS - Reto 4</title>
+  <link rel="stylesheet" href="css/dw-desafio4.css">
+</head>
+<body>
+  <h2>Alineaciones horizontales</h2>
+  <h2>Tamaño fijo con Ancho declarado</h2>
+  <div class="caja tipo-a">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex consequatur, inventore alias voluptatibus eligendi. Vel sit animi aut corrupti vero libero, debitis optio, fugiat, ratione commodi maxime natus. Laborum, unde.</p>
+  </div>
+  <h2>Tamaño fijo usando calc</h2>
+  <div class="caja tipo-b">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure est ab necessitatibus tenetur magnam voluptates, blanditiis dolorum animi aspernatur doloribus minima quibusdam alias rem repellat repudiandae incidunt, dignissimos, voluptas vitae!</p>
+  </div>
+  <h2>Elementos con Display inline-block</h2>
+  <div class="tipo-c">
+    <div class="caja">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta rerum eum aperiam fugit culpa recusandae distinctio sed nulla placeat architecto provident magnam quidem, minus nesciunt consequatur voluptas laudantium, laborum facere.</div>    
+    <div class="caja">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta rerum eum aperiam fugit culpa recusandae distinctio sed nulla placeat architecto provident magnam quidem, minus nesciunt consequatur voluptas laudantium, laborum facere.</div>    
+    <div class="caja">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta rerum eum aperiam fugit culpa recusandae distinctio sed nulla placeat architecto provident magnam quidem, minus nesciunt consequatur voluptas laudantium, laborum facere.</div>
+  </div>
+  <h2>Elementos con posición Absoluta - A</h2>
+  <div class="relative">
+    <div class="caja tipo-d">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus aliquid unde molestiae natus eveniet recusandae tempore fuga cupiditate accusamus mollitia voluptatem est, asperiores, possimus similique inventore, eum nostrum consequuntur deleniti.</div>
+  </div>
+  <h2>Elementos con posición Absoluta - B</h2>
+  <div class="relative">
+    <div class="caja tipo-e">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores ullam ratione quisquam aliquam repudiandae maxime ad, officia laborum, dolores repellat. Non doloremque eius, illum maiores excepturi consequuntur fugiat delectus quaerat?</div>
+  </div>
+  <h2>Elementos con display Flex</h2>
+  <div class="tipo-f">
+    <div class="caja">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit iure debitis fugit. Ex magnam odio, facere praesentium voluptate minima modi, architecto aspernatur officia sunt quo! Iusto beatae, repellat sit obcaecati.</div>
+    <div class="caja">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit iure debitis fugit. Ex magnam odio, facere praesentium voluptate minima modi, architecto aspernatur officia sunt quo! Iusto beatae, repellat sit obcaecati.</div>
+  </div>
+  
+  <h2>Hay que validar por que no se alinea hoizontablemente</h2>
+  <h2>Elementos con display table con ultra soporte a IE</h2>
+  <div class="tipo-x">
+    <div class="caja">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat consequuntur, obcaecati quisquam aliquid aut enim vel laudantium eaque rerum animi, voluptatibus deserunt. Maxime quam hic minus. Reprehenderit quae, voluptatibus error?</div>
+    <div class="caja">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat consequuntur, obcaecati quisquam aliquid aut enim vel laudantium eaque rerum animi, voluptatibus deserunt. Maxime quam hic minus. Reprehenderit quae, voluptatibus error?</div>
+  </div>
+
+
+  <h2>Alineaciones Verticales</h2>
+  <h2>Elementos con display table con ultra soporte a IE</h2>
+  <div class="tipo-g">
+    <div class="caja">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat consequuntur, obcaecati quisquam aliquid aut enim vel laudantium eaque rerum animi, voluptatibus deserunt. Maxime quam hic minus. Reprehenderit quae, voluptatibus error?</div>
+    <div class="caja">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat consequuntur, obcaecati quisquam aliquid aut enim vel laudantium eaque rerum animi, voluptatibus deserunt. Maxime quam hic minus. Reprehenderit quae, voluptatibus error?</div>
+  </div>
+  
+  <h2>Elementos centrados con padding</h2>
+  <div class="tipo-h height">
+    <div class="caja">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore quod debitis iure similique, nihil et enim minus? Illum eaque autem consectetur voluptas, blanditiis rem, natus suscipit harum, vero odio quidem!</div>
+  </div>
+  <h2>Centrado vertical con flex</h2>
+  <div class="tipo-i height">
+    <div class="caja">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At facere, dolorum ipsa nesciunt odit, ducimus maiores vel repellendus maxime illum eius numquam iusto corporis praesentium nulla dolores dolorem, optio voluptatibus.</div>
+  </div>
+
+  <h2>Central verticalmente elementos de una sola línea</h2>
+  <div class="height">
+    <p class="tipo-j">Hola mundo!</p>
+  </div>
+
+  <h2>Centrar contenido mixto verticalmente.</h2>
+  <article class="tipo-k">
+    <img src="images/invie-classic.png" alt="Logo Invie Classic" width="100">
+    <span>@Invie Classic</span>
+    <div>Ver má<s class=""></s></div>  
+  </article>
+</body>
+</html>
+
